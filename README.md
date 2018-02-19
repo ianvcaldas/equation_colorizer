@@ -33,11 +33,11 @@ whitespace is ignored. You can include comment lines that start with `#`.
 followed by RGB values within parentheses and separated by commas. Each line
 contains one color.
 
-**Mappings:** Mappings are LaTeX symbols, followed by whitespace, followed by
-the name of the color the symbol should be colored as. To have multiple symbols
-share a color, include them in different lines. Each line contains one mapping.
-The symbol can be a LaTeX string of any length and complexity, and it doesn't
-need enclosing `$`s.
+**Mappings:** Mappings consist of three elements separated by whitespace: LaTeX
+symbols, an identifier, and the name of the color the symbol should be colored
+as. To have multiple symbols share a color, include them in different lines.
+Each line contains one mapping.  The symbol can be a LaTeX string of any length
+and complexity, and it doesn't need enclosing `$`s.
 
 **Equation:** The equation itself, written in LaTeX format. This can be an
 arbitrary string; the user is responsible for managing the LaTeX document and
