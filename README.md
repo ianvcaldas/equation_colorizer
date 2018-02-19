@@ -18,6 +18,8 @@ distribution installed, simple compilation can be achieved by
 
     python colorizer.py --tex input.txt > pdflatex
 
+For now, the script only runs on Python 3.
+
 Input file
 ==========
 
