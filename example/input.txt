@@ -1,0 +1,21 @@
+# Example input file to colorize the logistic growth equation.
+
+> colors
+# ColorBrewer 4-class qualitative palette
+red		 (228,26,28)
+blue 	 (55,126,184)
+green 	 (77,175,74)
+purple 	 (152,78,163)
+
+> Mappings
+
+N   popSize    blue    # population size
+dN  diffSize   blue    # differential of population size
+dt  diffTime   green   # differential of time
+r   growthRate purple  # growth rate
+K   carrCap    red     # carrying capacity
+
+> EQUATION
+
+\frac{ dN }{ dt }
+= r N \cdot \left( 1 - \frac{ N }{ K }\right)
